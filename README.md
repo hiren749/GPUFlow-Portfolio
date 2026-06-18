@@ -194,6 +194,16 @@ flowchart LR
 
 GPUFlow helps AI infrastructure teams identify wasted GPU capacity, monitor job queue pressure, and compare naive scheduling against smarter scheduling logic. The dashboard converts technical infrastructure signals such as GPU utilization, idle slots, queue depth, and wait time into business-facing metrics like estimated waste cost, estimated time saved, and estimated cost savings. This creates a practical foundation for a GPU optimization platform.
     C --> D[GPU Waste Detection]
+
+## Featured Project
+
+### GPUFlow Project 5 - Unified GPU Infrastructure Dashboard
+
+![GPUFlow Project 5 Dashboard](project5-dashboard.png)
+
+Project 5 combines GPU waste detection, job queue monitoring, and smart scheduler optimization into one product-style dashboard.
+
+Repository: GPUFlow-Project5
     C --> E[Job Queue Monitoring]
     C --> F[Smart Scheduler Optimization]
 ```
