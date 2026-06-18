@@ -182,3 +182,14 @@ GPUFlow is moving toward a GPU infrastructure intelligence platform that helps A
 This portfolio demonstrates hands-on execution across cloud infrastructure, observability, GPU scheduling logic, and infrastructure product thinking.
 
 The goal is to build credibility for GPU infrastructure roles, AI infrastructure conversations, and future GPUFlow product development.
+
+## Architecture
+
+```mermaid
+flowchart LR
+    A[Python GPUFlow Unified Exporter] --> B[Prometheus]
+    B --> C[Grafana Dashboard]
+    C --> D[GPU Waste Detection]
+    C --> E[Job Queue Monitoring]
+    C --> F[Smart Scheduler Optimization]
+```
