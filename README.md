@@ -183,12 +183,7 @@ This portfolio demonstrates hands-on execution across cloud infrastructure, obse
 
 The goal is to build credibility for GPU infrastructure roles, AI infrastructure conversations, and future GPUFlow product development.
 
-## Architecture
 
-```mermaid
-flowchart LR
-    A[Python GPUFlow Unified Exporter] --> B[Prometheus]
-    B --> C[Grafana Dashboard]
 
 ## Business Value
 
